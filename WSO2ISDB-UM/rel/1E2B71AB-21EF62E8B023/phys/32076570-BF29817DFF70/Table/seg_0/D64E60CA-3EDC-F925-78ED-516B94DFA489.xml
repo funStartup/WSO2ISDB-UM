@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="um_hybrid_remember_me" directorySegmentName="seg_0" id="D64E60CA-3EDC-F925-78ED-516B94DFA489">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<schemaObject>3435A910-F4BB-DC87-9DDB-CDD71C491409</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UM_USER_NAME" id="1D3CA8FC-6A24-8735-8DD9-A07CF06F28B1">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UM_ID" id="35C164BC-6466-8778-84A8-CB7561BE57DB">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UM_TENANT_ID" id="5A8F5C17-3E3C-36E8-5C5B-6D7F5268225F">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="UM_CREATED_TIME" id="61BC0F2D-FB39-85BA-C7F5-39E45A5962D5">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="UM_COOKIE_VALUE" id="AD68CD8F-7D1D-E17C-EEB4-0BA41D34E2B9">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="6197009F-A6CE-4CAF-87EB-7D7888B1AE5D">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

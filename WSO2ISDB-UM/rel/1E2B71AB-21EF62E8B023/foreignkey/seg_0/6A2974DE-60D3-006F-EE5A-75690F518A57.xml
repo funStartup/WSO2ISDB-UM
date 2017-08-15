@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A2974DE-60D3-006F-EE5A-75690F518A57" containerWithKeyObject="723E3BA4-C88C-19D9-A2DA-BBD21C50DB43" localFKIndex="7E7A956C-A1A7-7586-1A38-0BBCDD4D33BC" name="UM_USER_ROLE_ibfk_2">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>UM_USER_ROLE_ibfk_2</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:47 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<referredTableLongName>ict_wso2_is_520_um_test.um_user</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59F017CA-F3F1-A18C-21E8-392FFD1AFE6B</referredTableID>
+<keyObject>2CD82F8A-9F6A-FDAF-C842-9503C2CA0D1A</keyObject>
+<referredKeyID>2CD82F8A-9F6A-FDAF-C842-9503C2CA0D1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UM_ID,UM_TENANT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

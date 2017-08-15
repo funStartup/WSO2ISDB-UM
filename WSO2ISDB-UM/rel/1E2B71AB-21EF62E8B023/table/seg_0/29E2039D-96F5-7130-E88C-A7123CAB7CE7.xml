@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29E2039D-96F5-7130-E88C-A7123CAB7CE7" schemaObject="3435A910-F4BB-DC87-9DDB-CDD71C491409" name="um_module">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>um_module</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UM_ID" id="7F818E4D-6901-D774-BB7A-3B30D17425CF">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_module</sourceObjSchema>
+<sourceObjName>UM_ID</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UM_MODULE_NAME" id="EDB2F9F9-6028-4A58-4085-02431A77C464">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_module</sourceObjSchema>
+<sourceObjName>UM_MODULE_NAME</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB9A9890-4AAA-C18F-9845-E66B45583639" name="PRIMARY">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F818E4D-6901-D774-BB7A-3B30D17425CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A9DAD81-2293-996A-B6E0-983330C017EC" name="UM_MODULE_NAME">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>UM_MODULE_NAME</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB2F9F9-6028-4A58-4085-02431A77C464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

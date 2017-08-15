@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="um_domain" directorySegmentName="seg_0" id="DF91F60D-393B-CEC5-31CD-0BC1A9DA97D7">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<schemaObject>3435A910-F4BB-DC87-9DDB-CDD71C491409</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UM_DOMAIN_ID" id="5A5D3DDC-6C2F-9CEB-D565-748D664CB88C">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UM_DOMAIN_NAME" id="64F94556-C50D-C9AA-8372-3208D11C10D4">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UM_TENANT_ID" id="939A57BB-8D16-2967-2262-ACB6A088530E">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="5435CBA7-5B79-2BA6-CB0D-9B1C71D7DE4F">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

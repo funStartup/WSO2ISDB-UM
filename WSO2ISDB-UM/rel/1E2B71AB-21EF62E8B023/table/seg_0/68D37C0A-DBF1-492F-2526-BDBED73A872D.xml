@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68D37C0A-DBF1-492F-2526-BDBED73A872D" schemaObject="3435A910-F4BB-DC87-9DDB-CDD71C491409" name="um_permission">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>um_permission</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UM_ID" id="A0ABE6F1-BBC1-DB98-4F8D-AFBF1EDF91FA">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_permission</sourceObjSchema>
+<sourceObjName>UM_ID</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UM_RESOURCE_ID" id="1A51CE99-404D-5A8D-3D62-E40D59C4CA57">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_permission</sourceObjSchema>
+<sourceObjName>UM_RESOURCE_ID</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UM_ACTION" id="0884A6F1-A30D-5225-D139-2400B843436A">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_permission</sourceObjSchema>
+<sourceObjName>UM_ACTION</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UM_TENANT_ID" id="1C90A256-AEE2-425A-4290-7A20A918BA47">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_permission</sourceObjSchema>
+<sourceObjName>UM_TENANT_ID</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UM_MODULE_ID" id="A062F8C3-F98D-9E80-7FD3-AD6BCAE4C928">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>um_permission</sourceObjSchema>
+<sourceObjName>UM_MODULE_ID</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A95C252-FC39-DD79-49E6-E4EB55D58768" name="PRIMARY">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0ABE6F1-BBC1-DB98-4F8D-AFBF1EDF91FA"/>
+<colUsage columnID="1C90A256-AEE2-425A-4290-7A20A918BA47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E89779-CFCB-A144-2775-BE737322F3F8" name="INDEX_UM_PERMISSION_UM_RESOURCE_ID_UM_ACTION">
+<sourceConnName>WSO2-IS-UM</sourceConnName>
+<sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
+<sourceObjName>INDEX_UM_PERMISSION_UM_RESOURCE_ID_UM_ACTION</sourceObjName>
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:37:46 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A51CE99-404D-5A8D-3D62-E40D59C4CA57"/>
+<colUsage columnID="0884A6F1-A30D-5225-D139-2400B843436A"/>
+<colUsage columnID="1C90A256-AEE2-425A-4290-7A20A918BA47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

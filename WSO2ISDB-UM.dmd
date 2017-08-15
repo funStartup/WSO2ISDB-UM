@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="WSO2ISDB-UM" id="2E2CE5FF-2B28-349B-EEDF-3F1B39B0A072" version="3.5">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:36:48 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2E2CE5FF-2B28-349B-EEDF-3F1B39B0A072</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="492A01D1-DFA4-BFD4-6464-D6B62CE404BD">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:36:48 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

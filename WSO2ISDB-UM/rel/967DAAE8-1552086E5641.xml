@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="967DAAE8-F794-4C68-AD80-1552086E5641" mainViewID="6D92B00B-EB01-29FE-0D10-0FFA8C878E2D">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:36:48 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

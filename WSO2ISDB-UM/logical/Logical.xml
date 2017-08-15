@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D53FCEF3-A6BE-FF79-CBF0-690E4534CF7B" mainViewID="2CC74916-D22B-3524-501A-52AC0F557CFF">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:36:48 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
