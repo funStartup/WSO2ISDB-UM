@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Cube class="oracle.dbtools.crest.model.design.multidimensional.Cube" name="Cube_1" directorySegmentName="seg_0" id="5508B051-B267-5AD0-EB09-689190CD4DDA">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:49:43 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<nameInOracleAW>CUBE_1</nameInOracleAW>
+<compressedcomposites>false</compressedcomposites>
+<partitioned>true</partitioned>
+<useGlobalComposites>false</useGlobalComposites>
+<virtual>true</virtual>
+</Cube>

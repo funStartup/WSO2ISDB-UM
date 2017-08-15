@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41875995-2EE8-420B-06BC-2F9188B634BE" name="um user">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>59F017CA-F3F1-A18C-21E8-392FFD1AFE6B</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UM ID" id="823F5AC3-78EE-5096-920A-1F36A401A2C4">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>575D4192-8310-D446-B879-AB036BDCE06A</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM USER NAME" id="FD1C7AEA-DB5F-D712-630D-3B2199767CF5">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>6CA9D6E9-AC58-5489-2A67-12B0DF1BAB36</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM USER PASSWORD" id="8C99B45E-CE98-A289-6F2C-0D558DDE828E">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>8B0F03D6-09CB-0A8F-2A6B-DB03CB598211</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM SALT VALUE" id="BDE04090-E540-FDFA-B332-66B7347F37D1">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>D0B851BE-9A5F-C3E7-1C1A-638118F2F9A5</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31</dataTypeSize>
+<ownDataTypeParameters>31,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM REQUIRE CHANGE" id="56EA3438-7673-8939-664B-8569B041382C">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>21B4F309-DC02-BD9A-128C-C095ECDFAAFB</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM CHANGED TIME" id="0F982CE4-AE1A-2EBC-8E56-37F44751D441">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>1CDE2DC2-4500-3A59-B24A-74FE7E48A375</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UM TENANT ID" id="780F9175-7E86-505E-C240-31A94FB8B079">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>CC444A0A-94F6-EEA7-2AF2-FEF81083FA62</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BE92A23-EA77-8860-A270-40B4C2EB6B36" name="PRIMARYv8">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>2CD82F8A-9F6A-FDAF-C842-9503C2CA0D1A</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>823F5AC3-78EE-5096-920A-1F36A401A2C4</attributeRef>
+<attributeRef>780F9175-7E86-505E-C240-31A94FB8B079</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C001350D-734F-29C3-D454-ABE0C74569AD" name="UM USER NAMEv1">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>553AA55E-4D7B-5F9B-935E-50273B3213C0</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>FD1C7AEA-DB5F-D712-630D-3B2199767CF5</attributeRef>
+<attributeRef>780F9175-7E86-505E-C240-31A94FB8B079</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

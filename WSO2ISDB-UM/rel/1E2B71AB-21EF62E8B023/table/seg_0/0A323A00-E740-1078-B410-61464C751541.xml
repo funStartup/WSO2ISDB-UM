@@ -58,7 +58,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1A29560-3F02-B910-DFF8-5C908083F426" name="PRIMARY">
+<ind_PK_UK id="F1A29560-3F02-B910-DFF8-5C908083F426" name="PRIMARYv1">
 <sourceConnName>WSO2-IS-UM</sourceConnName>
 <sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>

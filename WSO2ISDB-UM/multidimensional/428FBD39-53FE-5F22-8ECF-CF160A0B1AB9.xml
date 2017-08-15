@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="428FBD39-53FE-5F22-8ECF-CF160A0B1AB9" mainViewID="40BC8F5B-6D08-7445-B316-0AA955C4F547" boundModel="D53FCEF3-A6BE-FF79-CBF0-690E4534CF7B">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:47:27 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

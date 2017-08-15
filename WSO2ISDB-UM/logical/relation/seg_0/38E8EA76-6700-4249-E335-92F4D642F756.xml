@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UM_SHARED_USER_ROLE_ibfk_1" directorySegmentName="seg_0" id="38E8EA76-6700-4249-E335-92F4D642F756">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:46:40 UTC</createdTime>
+<generatorID>92E9824A-539C-7686-85D3-5A4BA0C0A8BF</generatorID>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<engineerTo>
+<item key="1E2B71AB-DA07-B26E-5708-21EF62E8B023" value="true"/>
+<item key="967DAAE8-F794-4C68-AD80-1552086E5641" value="true"/>
+</engineerTo>
+<sourcePk>A9C5A4B4-DDD4-6A61-8C1C-7D84D4A70C6E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A648560A-6FBA-A29B-B7F9-A1BCA1E17346</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6C08E4DC-F0BD-D951-1200-3EC617F43C69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.multidimensional.DPVMultidimensional" name="Multidimensional_1" id="40BC8F5B-6D08-7445-B316-0AA955C4F547">
+<createdBy>muharihar</createdBy>
+<modifiedBy>muharihar</modifiedBy>
+<createdTime>2017-08-15 01:47:27 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<compactDiagram class="oracle.dbtools.crest.swingui.multidimensional.DPVCompactMultidimentional" name="Multidimensional_1 - Compact Diagram" id="D2DB97A2-5870-A048-4F92-560D1F75F7AA">
+<createdBy>muharihar</createdBy>
+<modifiedBy>muharihar</modifiedBy>
+<createdTime>2017-08-15 01:47:27 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVCube" oid="5508B051-B267-5AD0-EB09-689190CD4DDA" otype="Cube" vid="45ED136F-89A1-6C18-2D87-288F1874549F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="96" y="181" width="110" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVLevel" oid="731B4A09-0AA3-97FB-1D65-E48B3C3DC77C" otype="Level" vid="F228E261-951E-0BEC-7ACD-61FBCA5356E3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="255" y="123" width="80" height="30"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVDimension" oid="7DF7C7FA-4795-76CE-D8C6-EFD3171CAC3E" otype="Dimension" vid="325BAD8C-5D29-4D75-CCED-00A6C9C291FF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="146" y="80" width="80" height="30"/>
+</OView>
+</objectViews>
+</compactDiagram>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVCube" oid="5508B051-B267-5AD0-EB09-689190CD4DDA" otype="Cube" vid="895E3AE5-0A27-A2F3-C6DF-68C670F46FED">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="494" y="157" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVLevel" oid="731B4A09-0AA3-97FB-1D65-E48B3C3DC77C" otype="Level" vid="2D87620A-B763-5850-724F-828BF5837616">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="255" y="123" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.multidimensional.TVDimension" oid="7DF7C7FA-4795-76CE-D8C6-EFD3171CAC3E" otype="Dimension" vid="5E000659-DDAD-424E-1DD7-BC0B64783A80">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="146" y="80" width="80" height="30"/>
+</OView>
+</objectViews>
+</Diagram>

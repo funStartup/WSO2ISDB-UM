@@ -81,7 +81,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7AF1F651-D008-F2CB-BD14-E013622F6C4C" name="PRIMARY">
+<ind_PK_UK id="7AF1F651-D008-F2CB-BD14-E013622F6C4C" name="PRIMARYv11">
 <sourceConnName>WSO2-IS-UM</sourceConnName>
 <sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
@@ -109,7 +109,7 @@
 <colUsage columnID="61A9660D-3E29-EA23-A2A0-8D5097515D74"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B73BBCAA-21E3-CAFA-4D67-8A09076AE99A" name="UM_USER_IDv1">
+<ind_PK_UK id="B73BBCAA-21E3-CAFA-4D67-8A09076AE99A" name="UM_USER_IDv1v1">
 <sourceConnName>WSO2-IS-UM</sourceConnName>
 <sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
 <sourceObjName>UM_USER_IDv1</sourceObjName>
@@ -122,7 +122,7 @@
 <colUsage columnID="E88B504C-0AF4-A7BE-1781-264B9FADB122"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7DF18AA6-A395-FB94-B7CD-2179DB0C7D78" name="UM_USER_IDv1">
+<ind_PK_UK id="7DF18AA6-A395-FB94-B7CD-2179DB0C7D78" name="UM_USER_IDv1v2">
 <sourceConnName>WSO2-IS-UM</sourceConnName>
 <sourceObjSchema>ict_wso2_is_520_um_test</sourceObjSchema>
 <sourceObjName>UM_USER_IDv1</sourceObjName>

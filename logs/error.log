@@ -1,0 +1,27 @@
+Errors for model WSO2-IS-UM
+Index ict_wso2_is_520_um_test.PRIMARYv1 in table ict_wso2_is_520_um_test.um_hybrid_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv2 in table ict_wso2_is_520_um_test.um_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv3 in table ict_wso2_is_520_um_test.um_module cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv4 in table ict_wso2_is_520_um_test.um_dialect cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv5 in table ict_wso2_is_520_um_test.um_claim cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv6 in table ict_wso2_is_520_um_test.um_tenant cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv7 in table ict_wso2_is_520_um_test.um_hybrid_user_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv8 in table ict_wso2_is_520_um_test.um_user cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.UM_USER_NAMEv1 in table ict_wso2_is_520_um_test.um_user cannot be set to name UM_USER_NAME
+Index ict_wso2_is_520_um_test.PRIMARYv9 in table ict_wso2_is_520_um_test.um_system_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv10 in table ict_wso2_is_520_um_test.um_permission cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv11 in table ict_wso2_is_520_um_test.um_user_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.UM_USER_IDv1v1 in table ict_wso2_is_520_um_test.um_user_role cannot be set to name UM_USER_IDv1
+Index ict_wso2_is_520_um_test.UM_USER_IDv1v2 in table ict_wso2_is_520_um_test.um_user_role cannot be set to name UM_USER_IDv1
+Index ict_wso2_is_520_um_test.PRIMARYv12 in table ict_wso2_is_520_um_test.um_profile_config cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv13 in table ict_wso2_is_520_um_test.um_system_user cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.UM_USER_NAMEv2 in table ict_wso2_is_520_um_test.um_system_user cannot be set to name UM_USER_NAME
+Index ict_wso2_is_520_um_test.PRIMARYv14 in table ict_wso2_is_520_um_test.um_account_mapping cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.UM_USER_NAMEv3 in table ict_wso2_is_520_um_test.um_account_mapping cannot be set to name UM_USER_NAME
+Index ict_wso2_is_520_um_test.PRIMARYv15 in table ict_wso2_is_520_um_test.um_module_actions cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv16 in table ict_wso2_is_520_um_test.um_system_user_role cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.UM_USER_NAMEv4 in table ict_wso2_is_520_um_test.um_system_user_role cannot be set to name UM_USER_NAME
+Index ict_wso2_is_520_um_test.PRIMARYv17 in table ict_wso2_is_520_um_test.um_user_permission cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv18 in table ict_wso2_is_520_um_test.um_role_permission cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv19 in table ict_wso2_is_520_um_test.um_hybrid_remember_me cannot be set to name PRIMARY
+Index ict_wso2_is_520_um_test.PRIMARYv20 in table ict_wso2_is_520_um_test.um_domain cannot be set to name PRIMARY

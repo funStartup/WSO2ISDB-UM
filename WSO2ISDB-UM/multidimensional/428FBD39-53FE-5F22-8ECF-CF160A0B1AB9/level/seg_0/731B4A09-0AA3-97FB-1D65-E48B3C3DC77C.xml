@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="Level_1" directorySegmentName="seg_0" id="731B4A09-0AA3-97FB-1D65-E48B3C3DC77C">
+<createdBy>muharihar</createdBy>
+<createdTime>2017-08-15 01:49:11 UTC</createdTime>
+<ownerDesignName>WSO2ISDB-UM</ownerDesignName>
+<nameInOracleAW>LEVEL_1</nameInOracleAW>
+<levelEntity>41875995-2EE8-420B-06BC-2F9188B634BE</levelEntity>
+<rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+<valueBasedHierarchy>false</valueBasedHierarchy>
+<oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes">
+</oraAWAttributes>
+</Level>

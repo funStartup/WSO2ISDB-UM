@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign>
+   <object objectType="Level" objectID="731B4A09-0AA3-97FB-1D65-E48B3C3DC77C" name="Level_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.multidimensional.Level" propertyParentId="428FBD39-53FE-5F22-8ECF-CF160A0B1AB9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Dimension" objectID="7DF7C7FA-4795-76CE-D8C6-EFD3171CAC3E" name="Dim_Date" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.multidimensional.Dimension" propertyParentId="428FBD39-53FE-5F22-8ECF-CF160A0B1AB9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Cube" objectID="5508B051-B267-5AD0-EB09-689190CD4DDA" name="Cube_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.multidimensional.Cube" propertyParentId="428FBD39-53FE-5F22-8ECF-CF160A0B1AB9" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign>
