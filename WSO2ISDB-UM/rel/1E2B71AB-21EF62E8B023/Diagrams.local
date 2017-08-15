@@ -1,4 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="2B75F7D4-7F47-895F-3F71-B9892B5C1AF0" name="WSO2-IS-UM" visible="true"/>
+   <object objectType="main_view" objectID="2B75F7D4-7F47-895F-3F71-B9892B5C1AF0" name="WSO2-IS-UM" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
